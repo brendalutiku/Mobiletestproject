@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+body {
+  width: 375%;
+  height: 718px;
+  background: url(images/header-shapes-mobile.png);
+  border: white;
+}
+
+.container {
+  width: 375%;
+  height: 604px;
+  top: 92px;
+  padding: 114px, 24px, 114, 24;
+  gap: 12px;
+}
+
+.headin {
+  height: 150px;
+  width: 327px;
+  left: 24px;
+  top: 114px;
+  border-radius: nullpx;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+  font-size: 40px;
+  line-height: 52px;
+  line-height: 87%;
+  align-items: left;
+  vertical-align: center;
+  fill: solid;
+  color: #172b4d;
+}
+
+.paragrap {
+  height: 146px;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  border-radius: nullpx;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: regular;
+  font-size: 16px;
+  line-height: 100%;
+  align-items: left;
+  vertical-align: top;
+  fill: solid;
+  color: #344563;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+h3 {
+  height: 24px;
+  width: 117px;
+  left: 0 px;
+  top: 0 px;
+  border-radius: nullpx;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: medium;
+  font-size: medium;
+  line-height: 24px;
+  line-height: 100%;
+  align-items: left;
+  vertical-align: top;
+  fill: solid;
+  color: #7f8cff;
+}

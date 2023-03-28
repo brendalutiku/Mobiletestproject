@@ -215,7 +215,7 @@ Brenda Lutiku
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Javascript]**
-- [ ] **[new_feature_2]**
+- [ ] **[styles]**
 - [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

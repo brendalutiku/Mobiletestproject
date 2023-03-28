@@ -1,66 +1,106 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
 
 body {
+  position: absolute;
   width: 375%;
   height: 718px;
-  background: url(images/header-shapes-mobile.png);
-  border: white;
+  left: 0;
+  top: 0;
+
+  /* Neutrals/N0 */
+  background: #f8ecec;
+  background: url(./header-shapes\ mobile.png);
 }
 
-.container {
-  width: 375%;
-  height: 604px;
-  top: 92px;
-  padding: 114px, 24px, 114, 24;
-  gap: 12px;
+.logo {
+  /* My Logo */
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box  height, or 111% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+  color: #6070ff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.headin {
+.heading {
+  /*  Primary Text */
+  width: 327%;
   height: 150px;
-  width: 327px;
-  left: 24px;
-  top: 114px;
-  border-radius: nullpx;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: bold;
+
+  /* Header / 2 */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  line-height: 87%;
-  align-items: left;
-  vertical-align: center;
-  fill: solid;
+
+  /* or 130% */
+  display: flex;
+  align-items: center;
+
+  /* Neutrrals/N800 */
   color: #172b4d;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .paragrap {
+  /* Primary T ext */
+  width: 327%;
   height: 146px;
-  width: 327px;
-  left: 24px;
-  top: 276px;
-  border-radius: nullpx;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: regular;
+
+  /* Body / 2 */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400px;
   font-size: 16px;
-  line-height: 100%;
-  align-items: left;
-  vertical-align: top;
-  fill: solid;
+  line-height: 24px;
+
+  /* Neutrals/N600 */
   color: #344563;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 /* stylelint-disable-next-line rule-empty-line-before */
 h3 {
+  width: 117%;
   height: 24px;
-  width: 117px;
-  left: 0 px;
-  top: 0 px;
-  border-radius: nullpx;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: medium;
-  font-size: medium;
+
+  /* Body / 2 - Bolder */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 16px;
   line-height: 24px;
   line-height: 100%;
-  align-items: left;
-  vertical-align: top;
-  fill: solid;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
   color: #7f8cff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }

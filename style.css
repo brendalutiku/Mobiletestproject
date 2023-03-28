@@ -1,39 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
-
 body {
+  
   position: absolute;
   width: 375%;
   height: 718px;
   left: 0;
   top: 0;
-
-  /* Neutrals/N0 */
-  background: #f8ecec;
-  background: url(./header-shapes\ mobile.png);
+}
+#Header{
+  width: 200px;
+  height: 100px;
+  background: url(./images/header-shapes\ mobile.png);
+}
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
-  /* My Logo */
-  width: 76px;
-  height: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-
-  /* identical to box  height, or 111% */
-  display: flex;
+nav{
+  display: block;
+  flex-wrap: wrap;
   align-items: center;
-  text-align: center;
-
-  /* Primary/B400 */
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+}
+nav a{
+  text-decoration: none;
   color: #6070ff;
+}
+.main{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+#toggler,label{
+display: none;
+@media screen and(max-width: 768px)  and (min-width: 375px)
+}
 
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+label{
+  display: inline-flex;
+}
+#toggler:checked-first{
+  max-height: 30%;
+}
+
+.container{
+  display: block;
 }
 
 .headin {
@@ -59,6 +75,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  @media screen and (min-width:375)and(max-width: 768px)
 }
 
 .paragrap {
@@ -81,7 +98,10 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  @media screen and (min-width:375)and(max-width: 768px)
+
 }
+
 /* stylelint-disable-next-line rule-empty-line-before */
 h3 {
   width: 117%;
@@ -104,4 +124,5 @@ h3 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  @media screen and (min-width:375)and(max-width: 768px)
 }
